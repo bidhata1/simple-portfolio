@@ -193,7 +193,7 @@ a:hover {
 #contact {
     margin-top: -200px;
     padding: 250px 60px 60px 60px;
-    background-color: #222;
+    background-color:gray;
     z-index: 1;
 }
 label {
@@ -219,3 +219,28 @@ footer {
 .heart {
     color: #e8290b;
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+button[type="submit"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: black;
+}
+body {
+    overflow-x: hidden;
+    background-color: gray;
+
+}
+
